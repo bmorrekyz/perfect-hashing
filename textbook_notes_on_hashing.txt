@@ -1,0 +1,16 @@
+/* hash function for strings */
+
+/*
+	this function has type unsigned int to deal with the overflow.
+*/
+unsigned int hash(const string &key, int tableSize)
+{
+	unsigned int hashValue = 0;
+
+	for (char ch : key)
+	{
+		hash = 37 * hashValue + ch;
+	}
+
+	return hashValue % tableSize;
+}

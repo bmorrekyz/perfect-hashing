@@ -79,3 +79,13 @@ string City::getCoordinates()
 {
 	return m_coordinates;
 }
+
+bool City::operator==(City &rhs)
+{
+	if ((getName() == rhs.getName()) && (getCoordinates() == rhs.getCoordinates()))
+	{
+		return true;
+	}
+
+	else return false;
+}

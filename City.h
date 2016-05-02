@@ -24,6 +24,10 @@ public:
 
 	string getCoordinates();
 	
+	/* overloaded == and != operators */
+	bool operator==(City &rhs); 
+
+
 private:
 
 	string m_name; 
