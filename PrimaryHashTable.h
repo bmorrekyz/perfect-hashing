@@ -7,8 +7,8 @@
 ** E-mail:  dsagit1@umbc.edu 
 **
 **   This file contains an interface of the PrimaryHashTable class.
-	Overloaded == and != operators. 
-	Global function unsigned int hash(const Object &key);
+**	
+** 
 ***********************************************/
 
 
@@ -16,48 +16,59 @@
 #define PRIMARY_HASH_TABLE_H
 
 #include <vector>
+#include <string>
+#include <stdlib.h>
+#include <iostream>
+#include <stdlib.h>     /* srand, rand */
+#include <time.h>       /* time */
 
 using namespace std;
 
 template <typename Object>
+
 class PrimaryHashTable
 {
 public:
 
-	PrimaryHashTable();
+	PrimaryHashTable(int tableSize, long int prime1, long int prime2);
 	
-	void makeEmpty();
+	// void makeEmpty();
 
-	Object find(Object &item);
+	// Object find(Object &item);
 
 	void insert(Object &x);
 
-	void remove(Object &x);
+	// void remove(Object &x);
 
 	enum TYPE { OCCUPIED, EMPTY, DELETED };
 
+	/* temporaty functions */
+
+	void printTable();
+
 private:
 
+	
 	struct HashItem
 	{
-		string item;
-		TYPE data;
+		string m_item;
+		string m_coordinates;
+		TYPE m_data;
 
-		HashItem( string key, TYPE choice )
-			: item(key), data(choice) 
+		HashItem( string key, string coordinates, TYPE choice )
+			: m_item(key), m_coordinates(coordinates), m_data(choice) 
 			{	/* empty constructor body */ }
 	};
 
 	vector<HashItem> array;
-	int occupied;
+	long int m_prime1;
+	long int m_prime2;
 
-	bool isActive(int currentPos);
-
-	int findPos(const Object &x);
-
-	void rehash();
-	
+	/* --- INTERNAL METHODS --- */
+	unsigned int myHash(int hashedValue);
+	unsigned int convertKey(string key);	
 };
 
 #include "PrimaryHashTable.cpp"
+
 #endif

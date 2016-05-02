@@ -9,6 +9,7 @@
 #include <time.h>       /* time */
 
 #include "City.h"
+#include "PrimaryHashTable.h"
 
 using namespace std;
 
@@ -17,38 +18,7 @@ using namespace std;
 #define PRIME1 16890581
 #define PRIME2 17027399 
 
-unsigned int myHash(int hashedValue)
-{
-	unsigned int hashValue = 0;
-	srand (time(NULL));
-	long int p = PRIME2 - 1; 
-	unsigned int a = rand() % p + 1;
-	unsigned int b = rand() % p + 1;
 
-	/* func h(x) = ((a * x + b) % prime2) % tableSize;  */
-	hashValue = ((a * hashedValue + b) % PRIME2) % 1000;
-
-	return hashValue;
-
-}
-
-unsigned int convertKey(string key)
-{
-	/* initialize random seed: */
-	srand (time(NULL));
-
-	unsigned int c = rand() % PRIME1 + 1;
-
-	long int strValue = 0;
-
-	/* static_cast<int>(key[i]) returns the int of an ascii character */
-	for (unsigned int i = 0; i < key.length(); i++)
-	{
-		strValue = (strValue + static_cast<int>(key[i])*c) % PRIME1;
-	}
-
-	return strValue;
-}
 
 
 int main(int argc, char const *argv[])
@@ -106,13 +76,14 @@ int main(int argc, char const *argv[])
 
 
 	/* test code */
+	PrimaryHashTable<City> hashTable1(cities.size(), PRIME1, PRIME2);
 
 	for (int i=0; i < cities.size(); i++)
 	{
-		if (myHash(convertKey(cities[i].getName())) > 990)
-		{cout << myHash(convertKey(cities[i].getName())) << endl;}
-
+		hashTable1.insert(cities[i]);
 	}
+
+	// hashTable1.printTable();
 
 	return 0;
 }
