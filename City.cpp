@@ -7,7 +7,7 @@ City::City(string name, string coordinates)
 	m_coordinates = coordinates;
 }
 
-City::City(string name, long double latitude, long double longitude)
+City::City(string name, double latitude, double longitude)
 {
 	m_name = name;
 	m_latitude = latitude;
@@ -32,7 +32,7 @@ void City::setName(string name)
 	}
 }
 
-void City::setLatitude(long double latitude)
+void City::setLatitude(double latitude)
 {
 	if (latitude > 0 )
 	{
@@ -45,7 +45,7 @@ void City::setLatitude(long double latitude)
 	}
 }
 
-void City::setLongitude(long double longitude)
+void City::setLongitude(double longitude)
 {
 	if (longitude > 0 )
 	{
@@ -64,13 +64,13 @@ string City::getName()
 	return m_name;
 }
 
-long double City::getLatitude()
+double City::getLatitude()
 {	
 	
 	return m_latitude;
 }
 
-long double City::getLongitude()
+double City::getLongitude()
 {
 	return m_longitude;
 }

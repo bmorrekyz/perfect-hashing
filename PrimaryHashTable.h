@@ -21,6 +21,7 @@
 #include <iostream>
 #include <stdlib.h>     /* srand, rand */
 #include <time.h>       /* time */
+#include <math.h>
 
 using namespace std;
 
@@ -30,7 +31,7 @@ class PrimaryHashTable
 {
 public:
 
-	PrimaryHashTable(int tableSize, long int prime1, long int prime2);
+	PrimaryHashTable(unsigned int tableSize, unsigned int prime1, unsigned int prime2);
 	
 	// void makeEmpty();
 
@@ -44,7 +45,7 @@ public:
 
 	/* temporaty functions */
 
-	void printTable();
+	void dump();
 
 private:
 
@@ -61,11 +62,18 @@ private:
 	};
 
 	vector<HashItem> array;
-	long int m_prime1;
-	long int m_prime2;
+	unsigned int m_prime1;
+	unsigned int m_prime2;
+
+	unsigned int m_a;
+	unsigned int m_b;
+	unsigned int m_c;
+
+
+	int zeroCities;//temp
 
 	/* --- INTERNAL METHODS --- */
-	unsigned int myHash(int hashedValue);
+	unsigned int myHash(unsigned int hashedValue);
 	unsigned int convertKey(string key);	
 };
 
