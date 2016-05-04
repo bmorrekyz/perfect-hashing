@@ -1,0 +1,4012 @@
+Script started on Mon 02 May 2016 11:20:20 PM EDT
+]0;dina@pc: ~/Desktop/341_proj_5dina@pc:~/Desktop/341_proj_5$ make 
+g++    -c -o Project5.o Project5.cpp
+g++    -c -o City.o City.cpp
+g++    -c -o PrimaryHashTable.o PrimaryHashTable.cpp
+g++ -ansi -Wall Project5.o City.o PrimaryHashTable.o -o Project5.out
+]0;dina@pc: ~/Desktop/341_proj_5dina@pc:~/Desktop/341_proj_5$ make cleanrun INPUT=input.txt 
+./Project5.out input.txt
+0: Abbeville, SC --- 163
+initial: 0
+final: 1
+
+1: Aberdeen, MS --- 27
+initial: 0
+final: 1
+
+2: Abilene, KS --- 541
+initial: 0
+final: 1
+
+3: Ada, MN --- 565
+initial: 0
+final: 1
+
+4: Affton, MO --- 801
+initial: 0
+final: 1
+
+5: Aiken, SC --- 793
+initial: 0
+final: 1
+
+6: Ajo, AZ --- 14
+initial: 0
+final: 1
+
+7: Alamo, TN --- 754
+initial: 0
+final: 1
+
+8: Albany, LA --- 276
+initial: 0
+final: 1
+
+9: Albany, MN --- 962
+initial: 0
+final: 1
+
+10: Albany, NY --- 272
+initial: 0
+final: 1
+
+11: Albany, OR --- 721
+initial: 0
+final: 1
+
+12: Alexandria Bay, NY --- 750
+initial: 0
+final: 1
+
+13: Alexandria, KY --- 92
+initial: 0
+final: 1
+
+14: Allapattah, FL --- 947
+initial: 0
+final: 1
+
+15: Alloway, NJ --- 12
+initial: 0
+final: 1
+
+16: Alpaugh, CA --- 314
+initial: 0
+final: 1
+
+17: Alpine, UT --- 365
+initial: 0
+final: 1
+
+18: Altamont, TN --- 26
+initial: 0
+final: 1
+
+19: Alton North (historical), TX --- 870
+initial: 0
+final: 1
+
+20: Altoona, IA --- 237
+initial: 0
+final: 1
+
+21: Alva, FL --- 725
+initial: 0
+final: 1
+
+22: Amelia, OH --- 781
+initial: 0
+final: 1
+
+23: Anna, TX --- 530
+initial: 0
+final: 1
+
+24: Anthony, KS --- 137
+initial: 0
+final: 1
+
+25: Apison, TN --- 245
+initial: 0
+final: 1
+
+26: Arcola, IL --- 670
+initial: 0
+final: 1
+
+27: Aristocrat Ranchettes, CO --- 244
+initial: 0
+final: 1
+
+28: Artesia, NM --- 41
+initial: 0
+final: 1
+
+29: Asbury Lake, FL --- 31
+initial: 0
+final: 1
+
+30: Ashburn, GA --- 618
+initial: 0
+final: 1
+
+31: Ashland City, TN --- 487
+initial: 0
+final: 1
+
+32: Ashland, IL --- 835
+initial: 0
+final: 1
+
+33: Ashland, MA --- 805
+initial: 0
+final: 1
+
+34: Ashley, PA --- 891
+initial: 0
+final: 1
+
+35: Ashwaubenon, WI --- 575
+initial: 0
+final: 1
+
+36: Athena, OR --- 865
+initial: 0
+final: 1
+
+37: Atkinson, NH --- 43
+initial: 0
+final: 1
+
+38: Atlantic Beach, FL --- 423
+initial: 0
+final: 1
+
+39: Atwood, KS --- 933
+initial: 0
+final: 1
+
+40: Auburndale, FL --- 547
+initial: 0
+final: 1
+
+41: Aurora, MO --- 954
+initial: 0
+final: 1
+
+42: Avalon, PA --- 260
+initial: 0
+final: 1
+
+43: Bacliff, TX --- 187
+initial: 0
+final: 1
+
+44: Baden, PA --- 54
+initial: 0
+final: 1
+
+45: Bakersfield, CA --- 872
+initial: 0
+final: 1
+
+46: Bakersville, NC --- 329
+initial: 0
+final: 1
+
+47: Ball, LA --- 553
+initial: 0
+final: 1
+
+48: Ballplay, AL --- 721
+initial: 1
+final: 2
+
+49: Baltimore, OH --- 484
+initial: 0
+final: 1
+
+50: Bangor, WI --- 820
+initial: 0
+final: 1
+
+51: Barataria, LA --- 3
+initial: 0
+final: 1
+
+52: Barneveld, WI --- 729
+initial: 0
+final: 1
+
+53: Bastrop, LA --- 259
+initial: 0
+final: 1
+
+54: Batavia, NY --- 534
+initial: 0
+final: 1
+
+55: Battle Mountain, NV --- 432
+initial: 0
+final: 1
+
+56: Bay Park, NY --- 157
+initial: 0
+final: 1
+
+57: Bayview, CA --- 769
+initial: 0
+final: 1
+
+58: Beaverton, MI --- 440
+initial: 0
+final: 1
+
+59: Belen, NM --- 111
+initial: 0
+final: 1
+
+60: Belle Rose, LA --- 282
+initial: 0
+final: 1
+
+61: Belle, WV --- 673
+initial: 0
+final: 1
+
+62: Bellefonte, DE --- 783
+initial: 0
+final: 1
+
+63: Belleville, NJ --- 341
+initial: 0
+final: 1
+
+64: Bellevue, ID --- 810
+initial: 0
+final: 1
+
+65: Bellmead, TX --- 680
+initial: 0
+final: 1
+
+66: Belmar, NJ --- 573
+initial: 0
+final: 1
+
+67: Berwick, LA --- 153
+initial: 0
+final: 1
+
+68: Bethel Heights, AR --- 470
+initial: 0
+final: 1
+
+69: Beulah, ND --- 936
+initial: 0
+final: 1
+
+70: Bevil Oaks, TX --- 316
+initial: 0
+final: 1
+
+71: Big Lake, WA --- 392
+initial: 0
+final: 1
+
+72: Biggs, CA --- 464
+initial: 0
+final: 1
+
+73: Birch Bay, WA --- 306
+initial: 0
+final: 1
+
+74: Bithlo, FL --- 231
+initial: 0
+final: 1
+
+75: Blair, WI --- 114
+initial: 0
+final: 1
+
+76: Blandon, PA --- 386
+initial: 0
+final: 1
+
+77: Blasdell, NY --- 967
+initial: 0
+final: 1
+
+78: Bloomfield, NY --- 730
+initial: 0
+final: 1
+
+79: Bluffton, OH --- 498
+initial: 0
+final: 1
+
+80: Boardman, OR --- 512
+initial: 0
+final: 1
+
+81: Bogart, GA --- 616
+initial: 0
+final: 1
+
+82: Bonadelle Ranchos-Madera Ranchos, CA --- 37
+initial: 0
+final: 1
+
+83: Boronda, CA --- 981
+initial: 0
+final: 1
+
+84: Boston, MA --- 591
+initial: 0
+final: 1
+
+85: Boyceville, WI --- 172
+initial: 0
+final: 1
+
+86: Brackenridge, PA --- 385
+initial: 0
+final: 1
+
+87: Braddock, PA --- 534
+initial: 1
+final: 2
+
+88: Brattleboro, VT --- 138
+initial: 0
+final: 1
+
+89: Breckenridge, MN --- 483
+initial: 0
+final: 1
+
+90: Breckinridge Center, KY --- 694
+initial: 0
+final: 1
+
+91: Bressler, PA --- 390
+initial: 0
+final: 1
+
+92: Brevard, NC --- 351
+initial: 0
+final: 1
+
+93: Briar, TX --- 744
+initial: 0
+final: 1
+
+94: Brickerville, PA --- 935
+initial: 0
+final: 1
+
+95: Brighton, AL --- 370
+initial: 0
+final: 1
+
+96: Brighton, NY --- 829
+initial: 0
+final: 1
+
+97: Brockton, MA --- 460
+initial: 0
+final: 1
+
+98: Brooks, KY --- 46
+initial: 0
+final: 1
+
+99: Brookside, AL --- 799
+initial: 0
+final: 1
+
+100: Brownsville, KY --- 391
+initial: 0
+final: 1
+
+101: Brunswick, MD --- 827
+initial: 0
+final: 1
+
+102: Brunswick, OH --- 836
+initial: 0
+final: 1
+
+103: Buena Vista, CO --- 755
+initial: 0
+final: 1
+
+104: Buford, GA --- 829
+initial: 1
+final: 2
+
+105: Bunker Hill Village, TX --- 388
+initial: 0
+final: 1
+
+106: Bunker Hill, IL --- 560
+initial: 0
+final: 1
+
+107: Burgettstown, PA --- 508
+initial: 0
+final: 1
+
+108: Burlington, KY --- 266
+initial: 0
+final: 1
+
+109: Burnsville, NC --- 13
+initial: 0
+final: 1
+
+110: Burwell, NE --- 54
+initial: 1
+final: 2
+
+111: Byrnes Mill, MO --- 740
+initial: 0
+final: 1
+
+112: Caledonia, MS --- 832
+initial: 0
+final: 1
+
+113: Caledonia, WI --- 77
+initial: 0
+final: 1
+
+114: Cambridge City, IN --- 776
+initial: 0
+final: 1
+
+115: Camino, CA --- 223
+initial: 0
+final: 1
+
+116: Camp Hill, AL --- 997
+initial: 0
+final: 1
+
+117: Canajoharie, NY --- 461
+initial: 0
+final: 1
+
+118: Canisteo, NY --- 302
+initial: 0
+final: 1
+
+119: Canoga Park, CA --- 144
+initial: 0
+final: 1
+
+120: Cardington, OH --- 582
+initial: 0
+final: 1
+
+121: Carey, OH --- 642
+initial: 0
+final: 1
+
+122: Carmel-by-the-Sea, CA --- 541
+initial: 1
+final: 2
+
+123: Carrboro, NC --- 143
+initial: 0
+final: 1
+
+124: Carrollton, MO --- 410
+initial: 0
+final: 1
+
+125: Carville, LA --- 275
+initial: 0
+final: 1
+
+126: Caryville, TN --- 155
+initial: 0
+final: 1
+
+127: Cattaraugus, NY --- 343
+initial: 0
+final: 1
+
+128: Cedar Falls, IA --- 639
+initial: 0
+final: 1
+
+129: Celoron, NY --- 102
+initial: 0
+final: 1
+
+130: Centerburg, OH --- 749
+initial: 0
+final: 1
+
+131: Centerville, UT --- 779
+initial: 0
+final: 1
+
+132: Central Heights-Midland City, AZ --- 505
+initial: 0
+final: 1
+
+133: Cerro Gordo, IL --- 892
+initial: 0
+final: 1
+
+134: Champaign, IL --- 638
+initial: 0
+final: 1
+
+135: Chandler, TX --- 331
+initial: 0
+final: 1
+
+136: Chapman, KS --- 261
+initial: 0
+final: 1
+
+137: Charles City, IA --- 282
+initial: 1
+final: 2
+
+138: Charles Town, WV --- 125
+initial: 0
+final: 1
+
+139: Charleston, AR --- 470
+initial: 1
+final: 2
+
+140: Charleston, WV --- 55
+initial: 0
+final: 1
+
+141: Charlotte Court House, VA --- 680
+initial: 1
+final: 2
+
+142: Cheboygan, MI --- 477
+initial: 0
+final: 1
+
+143: Chehalis, WA --- 759
+initial: 0
+final: 1
+
+144: Cheshire, CT --- 347
+initial: 0
+final: 1
+
+145: Chester, NJ --- 497
+initial: 0
+final: 1
+
+146: Chesterfield, MA --- 719
+initial: 0
+final: 1
+
+147: Chesterfield, VA --- 824
+initial: 0
+final: 1
+
+148: Cheyenne, OK --- 612
+initial: 0
+final: 1
+
+149: Chillicothe, OH --- 347
+initial: 1
+final: 2
+
+150: China, ME --- 868
+initial: 0
+final: 1
+
+151: China, TX --- 558
+initial: 0
+final: 1
+
+152: Churchill, OH --- 802
+initial: 0
+final: 1
+
+153: Cinco Ranch, TX --- 41
+initial: 1
+final: 2
+
+154: Citrus, CA --- 325
+initial: 0
+final: 1
+
+155: Clancy, MT --- 774
+initial: 0
+final: 1
+
+156: Clara City, MN --- 739
+initial: 0
+final: 1
+
+157: Clarcona, FL --- 229
+initial: 0
+final: 1
+
+158: Clark, SD --- 901
+initial: 0
+final: 1
+
+159: Clarks Summit, PA --- 738
+initial: 0
+final: 1
+
+160: Clarksville, IN --- 313
+initial: 0
+final: 1
+
+161: Claysburg, PA --- 575
+initial: 1
+final: 2
+
+162: Clayton, NY --- 774
+initial: 1
+final: 2
+
+163: Cleora, OK --- 707
+initial: 0
+final: 1
+
+164: Cleveland, OK --- 270
+initial: 0
+final: 1
+
+165: Clifton, IL --- 655
+initial: 0
+final: 1
+
+166: Clinton, AR --- 234
+initial: 0
+final: 1
+
+167: Clinton, UT --- 831
+initial: 0
+final: 1
+
+168: Cloverdale, VA --- 169
+initial: 0
+final: 1
+
+169: Clyde, OH --- 329
+initial: 1
+final: 2
+
+170: Clyde, TX --- 50
+initial: 0
+final: 1
+
+171: Coal Creek, CO --- 159
+initial: 0
+final: 1
+
+172: Coalville, UT --- 560
+initial: 1
+final: 2
+
+173: Cobden, IL --- 739
+initial: 1
+final: 2
+
+174: Colchester, VT --- 700
+initial: 0
+final: 1
+
+175: Coldspring, TX --- 499
+initial: 0
+final: 1
+
+176: Colfax, IL --- 605
+initial: 0
+final: 1
+
+177: Collinsville, IL --- 994
+initial: 0
+final: 1
+
+178: Coloma, MI --- 592
+initial: 0
+final: 1
+
+179: Colorado City, AZ --- 227
+initial: 0
+final: 1
+
+180: Columbia, MD --- 730
+initial: 1
+final: 2
+
+181: Columbia, MO --- 835
+initial: 1
+final: 2
+
+182: Columbia, MS --- 982
+initial: 0
+final: 1
+
+183: Commerce City, CO --- 155
+initial: 1
+final: 2
+
+184: Congers, NY --- 127
+initial: 0
+final: 1
+
+185: Contoocook, NH --- 798
+initial: 0
+final: 1
+
+186: Conway, SC --- 905
+initial: 0
+final: 1
+
+187: Coralville, IA --- 576
+initial: 0
+final: 1
+
+188: Cornwall-on-Hudson, NY --- 878
+initial: 0
+final: 1
+
+189: Corona de Tucson, AZ --- 620
+initial: 0
+final: 1
+
+190: Cortland, OH --- 911
+initial: 0
+final: 1
+
+191: Cottage Grove, MN --- 914
+initial: 0
+final: 1
+
+192: Crab Orchard, WV --- 339
+initial: 0
+final: 1
+
+193: Crooksville, OH --- 983
+initial: 0
+final: 1
+
+194: Cross Plains, WI --- 369
+initial: 0
+final: 1
+
+195: Crownpoint, NM --- 310
+initial: 0
+final: 1
+
+196: Crozet, VA --- 178
+initial: 0
+final: 1
+
+197: Culloden, WV --- 181
+initial: 0
+final: 1
+
+198: Cumberland Center, ME --- 232
+initial: 0
+final: 1
+
+199: Cut Off, LA --- 467
+initial: 0
+final: 1
+
+200: Cutchogue, NY --- 853
+initial: 0
+final: 1
+
+201: Dalhart, TX --- 491
+initial: 0
+final: 1
+
+202: Dannemora, NY --- 33
+initial: 0
+final: 1
+
+203: Danvers, IL --- 314
+initial: 1
+final: 2
+
+204: De Forest, WI --- 568
+initial: 0
+final: 1
+
+205: Dearborn, MI --- 113
+initial: 0
+final: 1
+
+206: Decaturville, TN --- 681
+initial: 0
+final: 1
+
+207: Deenwood, GA --- 117
+initial: 0
+final: 1
+
+208: Deep River Center, CT --- 709
+initial: 0
+final: 1
+
+209: Deer Lodge, MT --- 824
+initial: 1
+final: 2
+
+210: Deer Park, TX --- 380
+initial: 0
+final: 1
+
+211: Denmark, ME --- 884
+initial: 0
+final: 1
+
+212: Denmark, SC --- 697
+initial: 0
+final: 1
+
+213: Dennison, OH --- 815
+initial: 0
+final: 1
+
+214: Derma, MS --- 357
+initial: 0
+final: 1
+
+215: Des Peres, MO --- 515
+initial: 0
+final: 1
+
+216: Dighton, MA --- 713
+initial: 0
+final: 1
+
+217: Dock Junction, GA --- 959
+initial: 0
+final: 1
+
+218: Doctor Phillips, FL --- 102
+initial: 1
+final: 2
+
+219: Dodge City, KS --- 901
+initial: 1
+final: 2
+
+220: Dover Beaches South, NJ --- 384
+initial: 0
+final: 1
+
+221: Dover, NJ --- 89
+initial: 0
+final: 1
+
+222: Dublin, OH --- 75
+initial: 0
+final: 1
+
+223: Dublin, PA --- 524
+initial: 0
+final: 1
+
+224: Dumas, AR --- 464
+initial: 1
+final: 2
+
+225: Dundee, MI --- 151
+initial: 0
+final: 1
+
+226: Dunn Loring, VA --- 413
+initial: 0
+final: 1
+
+227: Eagle, CO --- 802
+initial: 1
+final: 2
+
+228: Early, TX --- 544
+initial: 0
+final: 1
+
+229: East Bangor, PA --- 522
+initial: 0
+final: 1
+
+230: East Lake, FL --- 513
+initial: 0
+final: 1
+
+231: East Longmeadow, MA --- 833
+initial: 0
+final: 1
+
+232: Eden Prairie, MN --- 802
+initial: 2
+final: 3
+
+233: Eden Valley, MN --- 677
+initial: 0
+final: 1
+
+234: Edgar, WI --- 801
+initial: 1
+final: 2
+
+235: Edgard, LA --- 131
+initial: 0
+final: 1
+
+236: Edina, MN --- 397
+initial: 0
+final: 1
+
+237: Edinburgh, IN --- 637
+initial: 0
+final: 1
+
+238: El Campo, TX --- 231
+initial: 1
+final: 2
+
+239: Elgin, IL --- 309
+initial: 0
+final: 1
+
+240: Elgin, TX --- 969
+initial: 0
+final: 1
+
+241: Elizabeth, PA --- 531
+initial: 0
+final: 1
+
+242: Elk River, MN --- 101
+initial: 0
+final: 1
+
+243: Elmendorf, TX --- 444
+initial: 0
+final: 1
+
+244: Elsberry, MO --- 515
+initial: 1
+final: 2
+
+245: Elsmere, DE --- 800
+initial: 0
+final: 1
+
+246: Elyria, OH --- 202
+initial: 0
+final: 1
+
+247: Eminence, MO --- 156
+initial: 0
+final: 1
+
+248: Empire, CA --- 165
+initial: 0
+final: 1
+
+249: Endicott, NY --- 879
+initial: 0
+final: 1
+
+250: Erie, CO --- 620
+initial: 1
+final: 2
+
+251: Erie, IL --- 496
+initial: 0
+final: 1
+
+252: Erlanger, KY --- 548
+initial: 0
+final: 1
+
+253: Escondido, CA --- 845
+initial: 0
+final: 1
+
+254: Eureka, IL --- 288
+initial: 0
+final: 1
+
+255: Eureka, NV --- 736
+initial: 0
+final: 1
+
+256: Evart, MI --- 333
+initial: 0
+final: 1
+
+257: Evergreen, CO --- 523
+initial: 0
+final: 1
+
+258: Fair Oaks, CA --- 797
+initial: 0
+final: 1
+
+259: Fair Plain, MI --- 87
+initial: 0
+final: 1
+
+260: Fairfield Harbour, NC --- 931
+initial: 0
+final: 1
+
+261: Fairfield, ID --- 206
+initial: 0
+final: 1
+
+262: Fairfield, IL --- 899
+initial: 0
+final: 1
+
+263: Fairland, OK --- 458
+initial: 0
+final: 1
+
+264: Fairview, NC --- 17
+initial: 0
+final: 1
+
+265: Fallon, NV --- 122
+initial: 0
+final: 1
+
+266: Falmouth, VA --- 841
+initial: 0
+final: 1
+
+267: Farmington, AR --- 268
+initial: 0
+final: 1
+
+268: Farmingville, NY --- 363
+initial: 0
+final: 1
+
+269: Farragut, TN --- 51
+initial: 0
+final: 1
+
+270: Faulkton, SD --- 489
+initial: 0
+final: 1
+
+271: Faxon, PA --- 155
+initial: 2
+final: 3
+
+272: Felton, CA --- 574
+initial: 0
+final: 1
+
+273: Fern Creek, KY --- 647
+initial: 0
+final: 1
+
+274: Fiskdale, MA --- 525
+initial: 0
+final: 1
+
+275: Florida Ridge, FL --- 568
+initial: 1
+final: 2
+
+276: Folsom, CA --- 847
+initial: 0
+final: 1
+
+277: Folsom, NJ --- 297
+initial: 0
+final: 1
+
+278: Fonda, NY --- 173
+initial: 0
+final: 1
+
+279: Foothill Farms, CA --- 427
+initial: 0
+final: 1
+
+280: Forest Hills, TN --- 349
+initial: 0
+final: 1
+
+281: Forest Park, IL --- 936
+initial: 1
+final: 2
+
+282: Forest Ranch, CA --- 19
+initial: 0
+final: 1
+
+283: Fort Bragg, NC --- 624
+initial: 0
+final: 1
+
+284: Fort Mitchell, KY --- 526
+initial: 0
+final: 1
+
+285: Fort Myers Beach, FL --- 646
+initial: 0
+final: 1
+
+286: Fort Polk South, LA --- 770
+initial: 0
+final: 1
+
+287: Fort Rucker, AL --- 123
+initial: 0
+final: 1
+
+288: Foscoe, NC --- 782
+initial: 0
+final: 1
+
+289: Fountain Hills, AZ --- 776
+initial: 1
+final: 2
+
+290: Four Corners, FL --- 172
+initial: 1
+final: 2
+
+291: Four Corners, MT --- 211
+initial: 0
+final: 1
+
+292: Fowler, MI --- 175
+initial: 0
+final: 1
+
+293: Fowlerville, MI --- 571
+initial: 0
+final: 1
+
+294: Fox Chapel, PA --- 717
+initial: 0
+final: 1
+
+295: Fox Lake Hills, IL --- 552
+initial: 0
+final: 1
+
+296: Foxborough, MA --- 313
+initial: 1
+final: 2
+
+297: Francisville, KY --- 805
+initial: 1
+final: 2
+
+298: Frederick, MD --- 80
+initial: 0
+final: 1
+
+299: Freeport, PA --- 0
+initial: 0
+final: 1
+
+300: Frewsburg, NY --- 959
+initial: 1
+final: 2
+
+301: Friendship, NY --- 807
+initial: 0
+final: 1
+
+302: Friendswood, TX --- 808
+initial: 0
+final: 1
+
+303: Fulton, KY --- 937
+initial: 0
+final: 1
+
+304: Fulton, MS --- 129
+initial: 0
+final: 1
+
+305: Fulton, TX --- 956
+initial: 0
+final: 1
+
+306: Gainesboro, TN --- 95
+initial: 0
+final: 1
+
+307: Gainesville, GA --- 868
+initial: 1
+final: 2
+
+308: Galax, VA --- 871
+initial: 0
+final: 1
+
+309: Galena, IL --- 264
+initial: 0
+final: 1
+
+310: Gallatin, TN --- 350
+initial: 0
+final: 1
+
+311: Gallitzin, PA --- 516
+initial: 0
+final: 1
+
+312: Gamewell, NC --- 698
+initial: 0
+final: 1
+
+313: Garden City, ID --- 703
+initial: 0
+final: 1
+
+314: Garfield Heights, OH --- 632
+initial: 0
+final: 1
+
+315: Garfield, TX --- 491
+initial: 1
+final: 2
+
+316: Garysburg, NC --- 389
+initial: 0
+final: 1
+
+317: Geneseo, NY --- 614
+initial: 0
+final: 1
+
+318: Georgetown, SC --- 794
+initial: 0
+final: 1
+
+319: Gering, NE --- 950
+initial: 0
+final: 1
+
+320: Gervais, OR --- 404
+initial: 0
+final: 1
+
+321: Gibsonia, FL --- 562
+initial: 0
+final: 1
+
+322: Gilbert, IA --- 784
+initial: 0
+final: 1
+
+323: Gilmanton, NH --- 649
+initial: 0
+final: 1
+
+324: Gladstone, MI --- 463
+initial: 0
+final: 1
+
+325: Gladstone, MO --- 883
+initial: 0
+final: 1
+
+326: Glasgow, VA --- 897
+initial: 0
+final: 1
+
+327: Glenolden, PA --- 397
+initial: 1
+final: 2
+
+328: Glenwood, IA --- 385
+initial: 1
+final: 2
+
+329: Gold Hill, OR --- 349
+initial: 1
+final: 2
+
+330: Goldendale, WA --- 574
+initial: 1
+final: 2
+
+331: Good Hope, AL --- 62
+initial: 0
+final: 1
+
+332: Goshen, IN --- 957
+initial: 0
+final: 1
+
+333: Gouldsboro, ME --- 755
+initial: 1
+final: 2
+
+334: Graceville, FL --- 8
+initial: 0
+final: 1
+
+335: Granite Falls, WA --- 646
+initial: 1
+final: 2
+
+336: Granville, OH --- 796
+initial: 0
+final: 1
+
+337: Greater Northdale, FL --- 788
+initial: 0
+final: 1
+
+338: Green Valley Farms, TX --- 186
+initial: 0
+final: 1
+
+339: Greenlawn, NY --- 297
+initial: 1
+final: 2
+
+340: Greensburg, KS --- 924
+initial: 0
+final: 1
+
+341: Greenville, MS --- 891
+initial: 1
+final: 2
+
+342: Greenwood, MS --- 123
+initial: 1
+final: 2
+
+343: Greenwood, WI --- 866
+initial: 0
+final: 1
+
+344: Greer, SC --- 674
+initial: 0
+final: 1
+
+345: Gretna, FL --- 51
+initial: 1
+final: 2
+
+346: Grissom Air Force Base, IN --- 719
+initial: 1
+final: 2
+
+347: Grottoes, VA --- 700
+initial: 1
+final: 2
+
+348: Gunter, TX --- 604
+initial: 0
+final: 1
+
+349: Gurnee, IL --- 200
+initial: 0
+final: 1
+
+350: Guymon, OK --- 530
+initial: 1
+final: 2
+
+351: Hadley, NY --- 545
+initial: 0
+final: 1
+
+352: Haines, AK --- 951
+initial: 0
+final: 1
+
+353: Hales Corners, WI --- 513
+initial: 1
+final: 2
+
+354: Hamburg, IA --- 406
+initial: 0
+final: 1
+
+355: Hamilton, MT --- 418
+initial: 0
+final: 1
+
+356: Hampden, ME --- 706
+initial: 0
+final: 1
+
+357: Harlem, GA --- 419
+initial: 0
+final: 1
+
+358: Harrington Park, NJ --- 773
+initial: 0
+final: 1
+
+359: Harrisburg, NE --- 945
+initial: 0
+final: 1
+
+360: Harrisburg, PA --- 261
+initial: 1
+final: 2
+
+361: Hartford City, IN --- 5
+initial: 0
+final: 1
+
+362: Hartford, IL --- 231
+initial: 2
+final: 3
+
+363: Hartley, CA --- 846
+initial: 0
+final: 1
+
+364: Harwich Center, MA --- 830
+initial: 0
+final: 1
+
+365: Haven, KS --- 281
+initial: 0
+final: 1
+
+366: Haviland, NY --- 524
+initial: 1
+final: 2
+
+367: Hayti, SD --- 596
+initial: 0
+final: 1
+
+368: Hazel Green, AL --- 144
+initial: 1
+final: 2
+
+369: Hazen, AR --- 32
+initial: 0
+final: 1
+
+370: Heavener, OK --- 98
+initial: 0
+final: 1
+
+371: Hebron, CT --- 604
+initial: 1
+final: 2
+
+372: Hebron, MD --- 429
+initial: 0
+final: 1
+
+373: Helotes, TX --- 388
+initial: 1
+final: 2
+
+374: Hemlock, MI --- 78
+initial: 0
+final: 1
+
+375: Herald Harbor, MD --- 361
+initial: 0
+final: 1
+
+376: Herington, KS --- 501
+initial: 0
+final: 1
+
+377: Hettinger, ND --- 6
+initial: 0
+final: 1
+
+378: Hiawatha, KS --- 287
+initial: 0
+final: 1
+
+379: Highlands Ranch, CO --- 894
+initial: 0
+final: 1
+
+380: Highwood, IL --- 430
+initial: 0
+final: 1
+
+381: Hillsboro, OH --- 64
+initial: 0
+final: 1
+
+382: Hobart, WA --- 788
+initial: 1
+final: 2
+
+383: Holiday City South, NJ --- 301
+initial: 0
+final: 1
+
+384: Holland, NY --- 428
+initial: 0
+final: 1
+
+385: Holland, OH --- 310
+initial: 1
+final: 2
+
+386: Homer, GA --- 775
+initial: 0
+final: 1
+
+387: Homer, IL --- 891
+initial: 2
+final: 3
+
+388: Hometown, IL --- 223
+initial: 1
+final: 2
+
+389: Homosassa Springs, FL --- 107
+initial: 0
+final: 1
+
+390: Honeoye Falls, NY --- 741
+initial: 0
+final: 1
+
+391: Honeyville, UT --- 288
+initial: 1
+final: 2
+
+392: Hope, AR --- 583
+initial: 0
+final: 1
+
+393: Hopkins, SC --- 52
+initial: 0
+final: 1
+
+394: Hopkinton, MA --- 932
+initial: 0
+final: 1
+
+395: Horace, ND --- 941
+initial: 0
+final: 1
+
+396: Horicon, WI --- 814
+initial: 0
+final: 1
+
+397: Hot Springs National Park, AR --- 546
+initial: 0
+final: 1
+
+398: Howland, ME --- 853
+initial: 1
+final: 2
+
+399: Huachuca City, AZ --- 959
+initial: 2
+final: 3
+
+400: Huber Heights, OH --- 712
+initial: 0
+final: 1
+
+401: Hull, MA --- 170
+initial: 0
+final: 1
+
+402: Hunter, TN --- 248
+initial: 0
+final: 1
+
+403: Huntsville, TN --- 48
+initial: 0
+final: 1
+
+404: Hurricane, WV --- 288
+initial: 2
+final: 3
+
+405: Independence, OR --- 929
+initial: 0
+final: 1
+
+406: Indian Springs, GA --- 762
+initial: 0
+final: 1
+
+407: Inez, KY --- 950
+initial: 1
+final: 2
+
+408: Ingleside, TX --- 286
+initial: 0
+final: 1
+
+409: Inglewood, CA --- 715
+initial: 0
+final: 1
+
+410: Inkster, MI --- 891
+initial: 3
+final: 4
+
+411: Inman, SC --- 396
+initial: 0
+final: 1
+
+412: Inverness, AL --- 160
+initial: 0
+final: 1
+
+413: Inverness, MS --- 821
+initial: 0
+final: 1
+
+414: Iola, WI --- 438
+initial: 0
+final: 1
+
+415: Iona, FL --- 899
+initial: 1
+final: 2
+
+416: Iowa Colony, TX --- 124
+initial: 0
+final: 1
+
+417: Iowa Park, TX --- 865
+initial: 1
+final: 2
+
+418: Jackson Center, OH --- 765
+initial: 0
+final: 1
+
+419: Jackson, LA --- 67
+initial: 0
+final: 1
+
+420: Jacksonville, IL --- 112
+initial: 0
+final: 1
+
+421: Jean Lafitte, LA --- 848
+initial: 0
+final: 1
+
+422: Jefferson, LA --- 408
+initial: 0
+final: 1
+
+423: Jeffersonville, KY --- 53
+initial: 0
+final: 1
+
+424: Jetmore, KS --- 896
+initial: 0
+final: 1
+
+425: Jewett City, CT --- 979
+initial: 0
+final: 1
+
+426: Johnsonville, SC --- 792
+initial: 0
+final: 1
+
+427: Joliet, IL --- 124
+initial: 1
+final: 2
+
+428: Jonesport, ME --- 445
+initial: 0
+final: 1
+
+429: Junction City, KY --- 856
+initial: 0
+final: 1
+
+430: Kalama, WA --- 986
+initial: 0
+final: 1
+
+431: Kanab, UT --- 701
+initial: 0
+final: 1
+
+432: Kayenta, AZ --- 696
+initial: 0
+final: 1
+
+433: Kearney, NE --- 480
+initial: 0
+final: 1
+
+434: Keedysville, MD --- 915
+initial: 0
+final: 1
+
+435: Keene, TX --- 534
+initial: 2
+final: 3
+
+436: Kemah, TX --- 890
+initial: 0
+final: 1
+
+437: Kennewick, WA --- 918
+initial: 0
+final: 1
+
+438: Kent, WA --- 251
+initial: 0
+final: 1
+
+439: Kenton, OH --- 187
+initial: 1
+final: 2
+
+440: Ketchum, ID --- 889
+initial: 0
+final: 1
+
+441: Kettering, MD --- 634
+initial: 0
+final: 1
+
+442: Kimberly, AL --- 117
+initial: 1
+final: 2
+
+443: Kimberly, ID --- 973
+initial: 0
+final: 1
+
+444: Kingsford, MI --- 784
+initial: 1
+final: 2
+
+445: Kingston Springs, TN --- 789
+initial: 0
+final: 1
+
+446: Kingston, MO --- 777
+initial: 0
+final: 1
+
+447: Kinsley, KS --- 503
+initial: 0
+final: 1
+
+448: Kirkland, WA --- 628
+initial: 0
+final: 1
+
+449: Knox, PA --- 448
+initial: 0
+final: 1
+
+450: La Habra Heights, CA --- 327
+initial: 0
+final: 1
+
+451: La Jolla, CA --- 707
+initial: 1
+final: 2
+
+452: La Mirada, CA --- 242
+initial: 0
+final: 1
+
+453: La Salle, CO --- 881
+initial: 0
+final: 1
+
+454: LaBelle, FL --- 639
+initial: 1
+final: 2
+
+455: Ladera, CA --- 472
+initial: 0
+final: 1
+
+456: Lafayette, IN --- 974
+initial: 0
+final: 1
+
+457: Lake Andes, SD --- 894
+initial: 1
+final: 2
+
+458: Lake Belvedere Estates, FL --- 62
+initial: 1
+final: 2
+
+459: Lake City, TN --- 601
+initial: 0
+final: 1
+
+460: Lake Como, NJ --- 564
+initial: 0
+final: 1
+
+461: Lake Delton, WI --- 599
+initial: 0
+final: 1
+
+462: Lake Dunlap, TX --- 98
+initial: 1
+final: 2
+
+463: Lake Erie Beach, NY --- 220
+initial: 0
+final: 1
+
+464: Lake Forest, FL --- 793
+initial: 1
+final: 2
+
+465: Lake Meade, PA --- 719
+initial: 2
+final: 3
+
+466: Lake Nacimiento, CA --- 31
+initial: 1
+final: 2
+
+467: Lake Pleasant, NY --- 239
+initial: 0
+final: 1
+
+468: Lake View, IA --- 454
+initial: 0
+final: 1
+
+469: Lake Worth, TX --- 36
+initial: 0
+final: 1
+
+470: Lake in the Hills, IL --- 374
+initial: 0
+final: 1
+
+471: Lake of the Pines, CA --- 261
+initial: 2
+final: 3
+
+472: Lake of the Woods, AZ --- 498
+initial: 1
+final: 2
+
+473: Lakewood, IL --- 22
+initial: 0
+final: 1
+
+474: Lakewood, NJ --- 29
+initial: 0
+final: 1
+
+475: Lanesborough, MA --- 521
+initial: 0
+final: 1
+
+476: Langhorne Manor, PA --- 906
+initial: 0
+final: 1
+
+477: Langston, OK --- 214
+initial: 0
+final: 1
+
+478: Lauderdale Lakes, FL --- 981
+initial: 1
+final: 2
+
+479: Laughlin, NV --- 905
+initial: 1
+final: 2
+
+480: Lavonia, GA --- 86
+initial: 0
+final: 1
+
+481: Lawnton, PA --- 782
+initial: 1
+final: 2
+
+482: Lawrenceville, NJ --- 316
+initial: 1
+final: 2
+
+483: Lawson, MO --- 642
+initial: 1
+final: 2
+
+484: Le Mars, IA --- 712
+initial: 1
+final: 2
+
+485: Le Sueur, MN --- 189
+initial: 0
+final: 1
+
+486: Leadville, CO --- 594
+initial: 0
+final: 1
+
+487: Lebanon, KY --- 960
+initial: 0
+final: 1
+
+488: Lebanon, OR --- 827
+initial: 1
+final: 2
+
+489: Lebanon, VA --- 45
+initial: 0
+final: 1
+
+490: Leesburg, OH --- 166
+initial: 0
+final: 1
+
+491: Lehighton, PA --- 792
+initial: 1
+final: 2
+
+492: Leon Valley, TX --- 81
+initial: 0
+final: 1
+
+493: Leonville, LA --- 966
+initial: 0
+final: 1
+
+494: Lesage, WV --- 115
+initial: 0
+final: 1
+
+495: Lexington Park, MD --- 466
+initial: 0
+final: 1
+
+496: Lexington, KY --- 804
+initial: 0
+final: 1
+
+497: Liberty, NC --- 921
+initial: 0
+final: 1
+
+498: Lincoln, KS --- 280
+initial: 0
+final: 1
+
+499: Linden, AL --- 402
+initial: 0
+final: 1
+
+500: Linden, MI --- 616
+initial: 1
+final: 2
+
+501: Linganore, MD --- 13
+initial: 1
+final: 2
+
+502: Lititz, PA --- 387
+initial: 0
+final: 1
+
+503: Little Rock, AR --- 491
+initial: 2
+final: 3
+
+504: Little Silver, NJ --- 656
+initial: 0
+final: 1
+
+505: Littleville, AL --- 748
+initial: 0
+final: 1
+
+506: Live Oak, FL --- 457
+initial: 0
+final: 1
+
+507: Livingston, NJ --- 147
+initial: 0
+final: 1
+
+508: Logan, NM --- 835
+initial: 2
+final: 3
+
+509: Long Lake, IL --- 143
+initial: 1
+final: 2
+
+510: Longview, NC --- 901
+initial: 2
+final: 3
+
+511: Lorane, PA --- 174
+initial: 0
+final: 1
+
+512: Lordstown, OH --- 743
+initial: 0
+final: 1
+
+513: Los Altos Hills, CA --- 380
+initial: 1
+final: 2
+
+514: Louisville, KY --- 301
+initial: 1
+final: 2
+
+515: Louisville, NE --- 87
+initial: 1
+final: 2
+
+516: Lovettsville, VA --- 51
+initial: 2
+final: 3
+
+517: Loving, NM --- 750
+initial: 1
+final: 2
+
+518: Luverne, AL --- 28
+initial: 0
+final: 1
+
+519: Luxemburg, WI --- 470
+initial: 2
+final: 3
+
+520: Lyncourt, NY --- 655
+initial: 1
+final: 2
+
+521: Macon, GA --- 603
+initial: 0
+final: 1
+
+522: Macon, IL --- 719
+initial: 3
+final: 4
+
+523: Madelia, MN --- 921
+initial: 1
+final: 2
+
+524: Madison Heights, VA --- 401
+initial: 0
+final: 1
+
+525: Madison, NE --- 210
+initial: 0
+final: 1
+
+526: Makaha, HI --- 80
+initial: 1
+final: 2
+
+527: Malmstrom Air Force Base, MT --- 492
+initial: 0
+final: 1
+
+528: Manchester, TN --- 150
+initial: 0
+final: 1
+
+529: Mangum, OK --- 239
+initial: 1
+final: 2
+
+530: Mansfield, TX --- 507
+initial: 0
+final: 1
+
+531: Mantorville, MN --- 644
+initial: 0
+final: 1
+
+532: Mantua, VA --- 273
+initial: 0
+final: 1
+
+533: Maple Heights, OH --- 641
+initial: 0
+final: 1
+
+534: Margate, FL --- 815
+initial: 1
+final: 2
+
+535: Marienville, PA --- 793
+initial: 2
+final: 3
+
+536: Maringouin, LA --- 142
+initial: 0
+final: 1
+
+537: Marks, MS --- 378
+initial: 0
+final: 1
+
+538: Marquette, MI --- 815
+initial: 2
+final: 3
+
+539: Marshall, TX --- 983
+initial: 1
+final: 2
+
+540: Marshall, WI --- 0
+initial: 1
+final: 2
+
+541: Mason, NH --- 256
+initial: 0
+final: 1
+
+542: Mason, TX --- 182
+initial: 0
+final: 1
+
+543: Mastic Beach, NY --- 624
+initial: 1
+final: 2
+
+544: Matteson, IL --- 326
+initial: 0
+final: 1
+
+545: Maynardville, TN --- 979
+initial: 1
+final: 2
+
+546: Mays Chapel, MD --- 118
+initial: 0
+final: 1
+
+547: Mayville, WI --- 915
+initial: 1
+final: 2
+
+548: McCordsville, IN --- 759
+initial: 1
+final: 2
+
+549: McLendon-Chisholm, TX --- 238
+initial: 0
+final: 1
+
+550: McPherson, KS --- 59
+initial: 0
+final: 1
+
+551: Meadow Lakes, AK --- 532
+initial: 0
+final: 1
+
+552: Medford, WI --- 922
+initial: 0
+final: 1
+
+553: Mediapolis, IA --- 708
+initial: 0
+final: 1
+
+554: Melcher-Dallas, IA --- 243
+initial: 0
+final: 1
+
+555: Melrose, MN --- 912
+initial: 0
+final: 1
+
+556: Melville, LA --- 841
+initial: 1
+final: 2
+
+557: Memphis, TN --- 674
+initial: 1
+final: 2
+
+558: Mendota, IL --- 543
+initial: 0
+final: 1
+
+559: Mercersburg, PA --- 659
+initial: 0
+final: 1
+
+560: Merriam Woods, MO --- 963
+initial: 0
+final: 1
+
+561: Merrimac, VA --- 96
+initial: 0
+final: 1
+
+562: Mesa Verde, CA --- 382
+initial: 0
+final: 1
+
+563: Miami, OK --- 474
+initial: 0
+final: 1
+
+564: Middle Island, NY --- 90
+initial: 0
+final: 1
+
+565: Middleborough Center, MA --- 151
+initial: 1
+final: 2
+
+566: Middlebury, IN --- 120
+initial: 0
+final: 1
+
+567: Middletown, IN --- 877
+initial: 0
+final: 1
+
+568: Midpines, CA --- 887
+initial: 0
+final: 1
+
+569: Milan, TN --- 315
+initial: 0
+final: 1
+
+570: Millcreek, UT --- 309
+initial: 1
+final: 2
+
+571: Millers Creek, NC --- 770
+initial: 1
+final: 2
+
+572: Millersport, OH --- 910
+initial: 0
+final: 1
+
+573: Millsboro, DE --- 48
+initial: 1
+final: 2
+
+574: Minco, OK --- 76
+initial: 0
+final: 1
+
+575: Minetto, NY --- 995
+initial: 0
+final: 1
+
+576: Minneota, MN --- 867
+initial: 0
+final: 1
+
+577: Missoula, MT --- 511
+initial: 0
+final: 1
+
+578: Mitchell, NE --- 534
+initial: 3
+final: 4
+
+579: Mohave Valley, AZ --- 473
+initial: 0
+final: 1
+
+580: Mokuleia, HI --- 731
+initial: 0
+final: 1
+
+581: Monett, MO --- 794
+initial: 1
+final: 2
+
+582: Monon, IN --- 790
+initial: 0
+final: 1
+
+583: Monrovia, IN --- 204
+initial: 0
+final: 1
+
+584: Monson Center, MA --- 987
+initial: 0
+final: 1
+
+585: Mont Belvieu, TX --- 635
+initial: 0
+final: 1
+
+586: Montara, CA --- 216
+initial: 0
+final: 1
+
+587: Monte Rio, CA --- 755
+initial: 2
+final: 3
+
+588: Monterey, VA --- 276
+initial: 1
+final: 2
+
+589: Montgomery, IL --- 975
+initial: 0
+final: 1
+
+590: Montgomery, NY --- 782
+initial: 2
+final: 3
+
+591: Montpelier, IN --- 124
+initial: 2
+final: 3
+
+592: Montpelier, VT --- 724
+initial: 0
+final: 1
+
+593: Montrose, NY --- 464
+initial: 2
+final: 3
+
+594: Mooresville, NC --- 203
+initial: 0
+final: 1
+
+595: Moorpark, CA --- 725
+initial: 1
+final: 2
+
+596: Morehead City, NC --- 414
+initial: 0
+final: 1
+
+597: Morenci, MI --- 815
+initial: 3
+final: 4
+
+598: Morganville, NJ --- 166
+initial: 1
+final: 2
+
+599: Morris, AL --- 446
+initial: 0
+final: 1
+
+600: Mound, MN --- 322
+initial: 0
+final: 1
+
+601: Mount Cobb, PA --- 84
+initial: 0
+final: 1
+
+602: Mount Juliet, TN --- 130
+initial: 0
+final: 1
+
+603: Mount Morris, MI --- 888
+initial: 0
+final: 1
+
+604: Mount Olivet, KY --- 503
+initial: 1
+final: 2
+
+605: Mount Shasta, CA --- 433
+initial: 0
+final: 1
+
+606: Mount Sinai, NY --- 707
+initial: 2
+final: 3
+
+607: Mount Vernon, KY --- 27
+initial: 1
+final: 2
+
+608: Mountain Lake Park, MD --- 175
+initial: 1
+final: 2
+
+609: Mountain View, MO --- 102
+initial: 2
+final: 3
+
+610: Mountain Village, CO --- 65
+initial: 0
+final: 1
+
+611: Moville, IA --- 84
+initial: 1
+final: 2
+
+612: Mulberry, IN --- 277
+initial: 0
+final: 1
+
+613: Mulberry, OH --- 943
+initial: 0
+final: 1
+
+614: Murphy, MO --- 894
+initial: 2
+final: 3
+
+615: Muscle Shoals, AL --- 660
+initial: 0
+final: 1
+
+616: Myerstown, PA --- 81
+initial: 1
+final: 2
+
+617: Myrtle Beach, SC --- 863
+initial: 0
+final: 1
+
+618: Nashua, IA --- 210
+initial: 1
+final: 2
+
+619: Nashua, NH --- 448
+initial: 1
+final: 2
+
+620: Navassa, NC --- 91
+initial: 0
+final: 1
+
+621: Nedrow, NY --- 606
+initial: 0
+final: 1
+
+622: Netcong, NJ --- 46
+initial: 1
+final: 2
+
+623: Neuse Forest, NC --- 692
+initial: 0
+final: 1
+
+624: New Albany, IN --- 677
+initial: 1
+final: 2
+
+625: New Albany, OH --- 343
+initial: 1
+final: 2
+
+626: New Bedford, MA --- 179
+initial: 0
+final: 1
+
+627: New Bloomfield, PA --- 446
+initial: 1
+final: 2
+
+628: New Castle, KY --- 404
+initial: 1
+final: 2
+
+629: New Columbia, PA --- 129
+initial: 1
+final: 2
+
+630: New Haven, IN --- 610
+initial: 0
+final: 1
+
+631: New Haven, WV --- 541
+initial: 2
+final: 3
+
+632: New Johnsonville, TN --- 641
+initial: 1
+final: 2
+
+633: Newburyport, MA --- 51
+initial: 3
+final: 4
+
+634: Newcomerstown, OH --- 43
+initial: 1
+final: 2
+
+635: Newton, NJ --- 932
+initial: 1
+final: 2
+
+636: Newville, PA --- 349
+initial: 2
+final: 3
+
+637: Noble, OK --- 100
+initial: 0
+final: 1
+
+638: North Babylon, NY --- 172
+initial: 2
+final: 3
+
+639: North Beach, MD --- 396
+initial: 1
+final: 2
+
+640: North Bellmore, NY --- 586
+initial: 0
+final: 1
+
+641: North Bend, NE --- 699
+initial: 0
+final: 1
+
+642: North Bergen, NJ --- 862
+initial: 0
+final: 1
+
+643: North Creek, WA --- 67
+initial: 1
+final: 2
+
+644: North Kensington, MD --- 290
+initial: 0
+final: 1
+
+645: North Laurel, MD --- 305
+initial: 0
+final: 1
+
+646: North Merrick, NY --- 628
+initial: 1
+final: 2
+
+647: North Sioux City, SD --- 164
+initial: 0
+final: 1
+
+648: North Springfield, VA --- 830
+initial: 1
+final: 2
+
+649: North Valley, NM --- 947
+initial: 1
+final: 2
+
+650: North Versailles, PA --- 420
+initial: 0
+final: 1
+
+651: Northlake, SC --- 824
+initial: 2
+final: 3
+
+652: Northport, ME --- 266
+initial: 1
+final: 2
+
+653: Northwest Harwich, MA --- 215
+initial: 0
+final: 1
+
+654: Novi, MI --- 449
+initial: 0
+final: 1
+
+655: Oak Hills, OR --- 837
+initial: 0
+final: 1
+
+656: Oakfield, WI --- 684
+initial: 0
+final: 1
+
+657: Oakwood, GA --- 615
+initial: 0
+final: 1
+
+658: Ocean Grove, NJ --- 217
+initial: 0
+final: 1
+
+659: Odon, IN --- 596
+initial: 1
+final: 2
+
+660: Old Town, ME --- 416
+initial: 0
+final: 1
+
+661: Old Westbury, NY --- 668
+initial: 0
+final: 1
+
+662: Olivet, SD --- 39
+initial: 0
+final: 1
+
+663: Olmos Park, TX --- 336
+initial: 0
+final: 1
+
+664: Onida, SD --- 36
+initial: 1
+final: 2
+
+665: Onion Creek, TX --- 739
+initial: 2
+final: 3
+
+666: Orange, MA --- 811
+initial: 0
+final: 1
+
+667: Orangevale, CA --- 242
+initial: 1
+final: 2
+
+668: Orchard Mesa, CO --- 279
+initial: 0
+final: 1
+
+669: Orinda, CA --- 114
+initial: 1
+final: 2
+
+670: Orland Hills, IL --- 267
+initial: 0
+final: 1
+
+671: Oroville, CA --- 220
+initial: 1
+final: 2
+
+672: Oskaloosa, IA --- 882
+initial: 0
+final: 1
+
+673: Overbrook, KS --- 806
+initial: 0
+final: 1
+
+674: Overland, MO --- 814
+initial: 1
+final: 2
+
+675: Paden City, WV --- 831
+initial: 1
+final: 2
+
+676: Palm Beach, FL --- 538
+initial: 0
+final: 1
+
+677: Palmyra, ME --- 117
+initial: 2
+final: 3
+
+678: Paradise Hills, NM --- 450
+initial: 0
+final: 1
+
+679: Paradise Valley, AZ --- 105
+initial: 0
+final: 1
+
+680: Pardeeville, WI --- 409
+initial: 0
+final: 1
+
+681: Parker, TX --- 904
+initial: 0
+final: 1
+
+682: Parkers Prairie, MN --- 177
+initial: 0
+final: 1
+
+683: Pasatiempo, CA --- 576
+initial: 1
+final: 2
+
+684: Paulina, LA --- 592
+initial: 1
+final: 2
+
+685: Paxton, IL --- 667
+initial: 0
+final: 1
+
+686: Peabody, KS --- 870
+initial: 1
+final: 2
+
+687: Pearl City, HI --- 716
+initial: 0
+final: 1
+
+688: Pelican Bay, TX --- 41
+initial: 2
+final: 3
+
+689: Pennington, NJ --- 924
+initial: 1
+final: 2
+
+690: Perry, OK --- 762
+initial: 1
+final: 2
+
+691: Perryman, MD --- 408
+initial: 1
+final: 2
+
+692: Phil Campbell, AL --- 805
+initial: 2
+final: 3
+
+693: Philmont, NY --- 820
+initial: 1
+final: 2
+
+694: Phoenix, OR --- 85
+initial: 0
+final: 1
+
+695: Piedmont, AL --- 869
+initial: 0
+final: 1
+
+696: Piedmont, CA --- 977
+initial: 0
+final: 1
+
+697: Piedmont, SC --- 350
+initial: 1
+final: 2
+
+698: Pierce City, MO --- 423
+initial: 1
+final: 2
+
+699: Pierre, SD --- 920
+initial: 0
+final: 1
+
+700: Pikeville, KY --- 528
+initial: 0
+final: 1
+
+701: Pine Level, AL --- 636
+initial: 0
+final: 1
+
+702: Pine Mountain, GA --- 782
+initial: 3
+final: 4
+
+703: Pingree Grove, IL --- 953
+initial: 0
+final: 1
+
+704: Pioche, NV --- 340
+initial: 0
+final: 1
+
+705: Pioneer, OH --- 451
+initial: 0
+final: 1
+
+706: Piru, CA --- 710
+initial: 0
+final: 1
+
+707: Pitcairn, PA --- 974
+initial: 1
+final: 2
+
+708: Pittsburg, TX --- 185
+initial: 0
+final: 1
+
+709: Pittsfield, NH --- 372
+initial: 0
+final: 1
+
+710: Plainview, NY --- 620
+initial: 2
+final: 3
+
+711: Planada, CA --- 255
+initial: 0
+final: 1
+
+712: Plantersville, MS --- 608
+initial: 0
+final: 1
+
+713: Pleasant Run, OH --- 318
+initial: 0
+final: 1
+
+714: Pleasant View, UT --- 534
+initial: 4
+final: 5
+
+715: Point Roberts, WA --- 216
+initial: 1
+final: 2
+
+716: Ponderosa Park, CO --- 40
+initial: 0
+final: 1
+
+717: Pontotoc, MS --- 377
+initial: 0
+final: 1
+
+718: Port Hueneme, CA --- 277
+initial: 1
+final: 2
+
+719: Port Lavaca, TX --- 688
+initial: 0
+final: 1
+
+720: Port Saint John, FL --- 375
+initial: 0
+final: 1
+
+721: Portland, TN --- 58
+initial: 0
+final: 1
+
+722: Post Falls, ID --- 95
+initial: 1
+final: 2
+
+723: Potosi, MO --- 518
+initial: 0
+final: 1
+
+724: Powder Springs, GA --- 255
+initial: 1
+final: 2
+
+725: Powers Lake, WI --- 910
+initial: 1
+final: 2
+
+726: Prairie du Chien, WI --- 965
+initial: 0
+final: 1
+
+727: Prien, LA --- 100
+initial: 1
+final: 2
+
+728: Princeville, HI --- 61
+initial: 0
+final: 1
+
+729: Privateer, SC --- 485
+initial: 0
+final: 1
+
+730: Prospect, CT --- 779
+initial: 1
+final: 2
+
+731: Pukalani, HI --- 561
+initial: 0
+final: 1
+
+732: Punta Gorda, FL --- 146
+initial: 0
+final: 1
+
+733: Purcell, OK --- 347
+initial: 2
+final: 3
+
+734: Raceland, KY --- 888
+initial: 1
+final: 2
+
+735: Rainbow, CA --- 835
+initial: 3
+final: 4
+
+736: Rapid City, MI --- 479
+initial: 0
+final: 1
+
+737: Raritan, NJ --- 831
+initial: 2
+final: 3
+
+738: Ray City, GA --- 921
+initial: 2
+final: 3
+
+739: Raytown, MO --- 698
+initial: 1
+final: 2
+
+740: Red Bank, NJ --- 733
+initial: 0
+final: 1
+
+741: Red Lake Falls, MN --- 612
+initial: 1
+final: 2
+
+742: Red Wing, MN --- 202
+initial: 1
+final: 2
+
+743: Redington Shores, FL --- 775
+initial: 1
+final: 2
+
+744: Reese, MI --- 299
+initial: 0
+final: 1
+
+745: Rendon, TX --- 227
+initial: 1
+final: 2
+
+746: Reno, NV --- 326
+initial: 1
+final: 2
+
+747: Richfield, MN --- 675
+initial: 0
+final: 1
+
+748: Richland Hills, TX --- 942
+initial: 0
+final: 1
+
+749: Richwood, OH --- 323
+initial: 0
+final: 1
+
+750: Riesel, TX --- 468
+initial: 0
+final: 1
+
+751: Rincon, GA --- 485
+initial: 1
+final: 2
+
+752: Ringgold, GA --- 983
+initial: 2
+final: 3
+
+753: Rising Sun-Lebanon, DE --- 920
+initial: 1
+final: 2
+
+754: Robersonville, NC --- 597
+initial: 0
+final: 1
+
+755: Robinwood, MD --- 453
+initial: 0
+final: 1
+
+756: Rock Creek, MN --- 462
+initial: 0
+final: 1
+
+757: Rockwall, TX --- 733
+initial: 1
+final: 2
+
+758: Rockwell, IA --- 926
+initial: 0
+final: 1
+
+759: Rocky Mount, NC --- 44
+initial: 0
+final: 1
+
+760: Roessleville, NY --- 359
+initial: 0
+final: 1
+
+761: Rogersville, TN --- 942
+initial: 1
+final: 2
+
+762: Roland, OK --- 859
+initial: 0
+final: 1
+
+763: Roscoe, IL --- 508
+initial: 1
+final: 2
+
+764: Rose Hill, KS --- 570
+initial: 0
+final: 1
+
+765: Rosebud, SD --- 285
+initial: 0
+final: 1
+
+766: Roselle Park, NJ --- 672
+initial: 0
+final: 1
+
+767: Rosemont, IL --- 63
+initial: 0
+final: 1
+
+768: Rosenberg, TX --- 990
+initial: 0
+final: 1
+
+769: Roseto, PA --- 242
+initial: 2
+final: 3
+
+770: Rosiclare, IL --- 21
+initial: 0
+final: 1
+
+771: Rosita North, TX --- 646
+initial: 2
+final: 3
+
+772: Rosita South, TX --- 908
+initial: 0
+final: 1
+
+773: Roslyn Estates, NY --- 523
+initial: 1
+final: 2
+
+774: Rossmoor, NJ --- 937
+initial: 1
+final: 2
+
+775: Roswell, GA --- 969
+initial: 1
+final: 2
+
+776: Runnemede, NJ --- 171
+initial: 0
+final: 1
+
+777: Rushville, IL --- 684
+initial: 1
+final: 2
+
+778: Rutherford, PA --- 788
+initial: 2
+final: 3
+
+779: Sabattus, ME --- 331
+initial: 1
+final: 2
+
+780: Sacaton, AZ --- 585
+initial: 0
+final: 1
+
+781: Sacramento, CA --- 511
+initial: 1
+final: 2
+
+782: Saint Andrews, SC --- 722
+initial: 0
+final: 1
+
+783: Saint Anthony, ID --- 975
+initial: 1
+final: 2
+
+784: Saint Elmo, IL --- 803
+initial: 0
+final: 1
+
+785: Saint Jo, TX --- 633
+initial: 0
+final: 1
+
+786: Saint John, KS --- 965
+initial: 1
+final: 2
+
+787: Saint Johns, MO --- 68
+initial: 0
+final: 1
+
+788: Saint Paul, MO --- 44
+initial: 1
+final: 2
+
+789: Salineville, OH --- 830
+initial: 2
+final: 3
+
+790: Saluda, SC --- 303
+initial: 0
+final: 1
+
+791: San Diego, TX --- 447
+initial: 0
+final: 1
+
+792: San Fernando, CA --- 45
+initial: 1
+final: 2
+
+793: San Joaquin Hills, CA --- 592
+initial: 2
+final: 3
+
+794: San Juan Bautista, CA --- 522
+initial: 1
+final: 2
+
+795: San Manuel, AZ --- 261
+initial: 3
+final: 4
+
+796: Sanatoga, PA --- 380
+initial: 2
+final: 3
+
+797: Santa Rosa, NM --- 239
+initial: 2
+final: 3
+
+798: Saranac Lake, NY --- 283
+initial: 0
+final: 1
+
+799: Saratoga Springs, UT --- 451
+initial: 1
+final: 2
+
+800: Sarita, TX --- 226
+initial: 0
+final: 1
+
+801: Satanta, KS --- 365
+initial: 1
+final: 2
+
+802: Savannah, MO --- 455
+initial: 0
+final: 1
+
+803: Schofield Barracks, HI --- 906
+initial: 1
+final: 2
+
+804: Scotland Neck, NC --- 779
+initial: 2
+final: 3
+
+805: Sellersville, PA --- 528
+initial: 1
+final: 2
+
+806: Seneca, KS --- 408
+initial: 2
+final: 3
+
+807: Shannon, GA --- 168
+initial: 0
+final: 1
+
+808: Shannondale, WV --- 826
+initial: 0
+final: 1
+
+809: Shark River Hills, NJ --- 884
+initial: 1
+final: 2
+
+810: Shasta, CA --- 128
+initial: 0
+final: 1
+
+811: Shawnee Land, VA --- 929
+initial: 1
+final: 2
+
+812: Shenandoah, LA --- 314
+initial: 2
+final: 3
+
+813: Shenandoah, TX --- 810
+initial: 1
+final: 2
+
+814: Sheridan, AR --- 653
+initial: 0
+final: 1
+
+815: Sherwood, OH --- 103
+initial: 0
+final: 1
+
+816: Shiner, TX --- 818
+initial: 0
+final: 1
+
+817: Ship Bottom, NJ --- 785
+initial: 0
+final: 1
+
+818: Shorewood, IL --- 703
+initial: 1
+final: 2
+
+819: Skippack, PA --- 471
+initial: 0
+final: 1
+
+820: Skyline View, PA --- 644
+initial: 1
+final: 2
+
+821: Sleepy Hollow, IL --- 473
+initial: 1
+final: 2
+
+822: Smithfield, NC --- 731
+initial: 1
+final: 2
+
+823: Snow Hill, NC --- 397
+initial: 2
+final: 3
+
+824: Snowflake, AZ --- 971
+initial: 0
+final: 1
+
+825: Solomons, MD --- 558
+initial: 1
+final: 2
+
+826: Solvang, CA --- 320
+initial: 0
+final: 1
+
+827: Somerset, TX --- 650
+initial: 0
+final: 1
+
+828: Soulsbyville, CA --- 699
+initial: 1
+final: 2
+
+829: South Bend, IN --- 379
+initial: 0
+final: 1
+
+830: South Blooming Grove, NY --- 64
+initial: 1
+final: 2
+
+831: South Bradenton, FL --- 815
+initial: 4
+final: 5
+
+832: South Gate Ridge, FL --- 262
+initial: 0
+final: 1
+
+833: South Gate, CA --- 214
+initial: 1
+final: 2
+
+834: South Hadley, MA --- 80
+initial: 2
+final: 3
+
+835: South Holland, IL --- 899
+initial: 2
+final: 3
+
+836: South Old Bridge, NJ --- 61
+initial: 1
+final: 2
+
+837: South Zanesville, OH --- 988
+initial: 0
+final: 1
+
+838: Southampton, MA --- 26
+initial: 1
+final: 2
+
+839: Southgate, FL --- 833
+initial: 1
+final: 2
+
+840: Spangler, PA --- 863
+initial: 1
+final: 2
+
+841: Spooner, WI --- 85
+initial: 1
+final: 2
+
+842: Spring Hope, NC --- 751
+initial: 0
+final: 1
+
+843: Springdale, PA --- 978
+initial: 0
+final: 1
+
+844: Springville, VA --- 498
+initial: 2
+final: 3
+
+845: Stamford, CT --- 188
+initial: 0
+final: 1
+
+846: Stansbury park, UT --- 766
+initial: 0
+final: 1
+
+847: Staten Island, NY --- 603
+initial: 1
+final: 2
+
+848: Statesville, NC --- 111
+initial: 1
+final: 2
+
+849: Steele, AL --- 992
+initial: 0
+final: 1
+
+850: Stephenville, TX --- 947
+initial: 2
+final: 3
+
+851: Sterling, VA --- 671
+initial: 0
+final: 1
+
+852: Stevenson, AL --- 709
+initial: 1
+final: 2
+
+853: Stewart Manor, NY --- 441
+initial: 0
+final: 1
+
+854: Stewartville, AL --- 984
+initial: 0
+final: 1
+
+855: Stigler, OK --- 335
+initial: 0
+final: 1
+
+856: Stockdale, TX --- 871
+initial: 1
+final: 2
+
+857: Stockton Springs, ME --- 749
+initial: 1
+final: 2
+
+858: Stonegate, CO --- 699
+initial: 2
+final: 3
+
+859: Stonewall, LA --- 437
+initial: 0
+final: 1
+
+860: Stowe, PA --- 116
+initial: 0
+final: 1
+
+861: Stratford, NJ --- 78
+initial: 1
+final: 2
+
+862: Sugarland Run, VA --- 126
+initial: 0
+final: 1
+
+863: Sullivan, MO --- 587
+initial: 0
+final: 1
+
+864: Sumas, WA --- 271
+initial: 0
+final: 1
+
+865: Sunman, IN --- 140
+initial: 0
+final: 1
+
+866: Sunnyvale, TX --- 86
+initial: 1
+final: 2
+
+867: Superior, AZ --- 231
+initial: 3
+final: 4
+
+868: Superior, MT --- 584
+initial: 0
+final: 1
+
+869: Superior, WI --- 243
+initial: 1
+final: 2
+
+870: Swedesboro, NJ --- 394
+initial: 0
+final: 1
+
+871: Sylvania, OH --- 733
+initial: 2
+final: 3
+
+872: Syracuse, UT --- 963
+initial: 1
+final: 2
+
+873: Tamworth, NH --- 908
+initial: 1
+final: 2
+
+874: Tappahannock, VA --- 274
+initial: 0
+final: 1
+
+875: Taylor, AZ --- 890
+initial: 1
+final: 2
+
+876: Taylorsville, MS --- 283
+initial: 1
+final: 2
+
+877: Temple City, CA --- 460
+initial: 1
+final: 2
+
+878: Temple Terrace, FL --- 942
+initial: 2
+final: 3
+
+879: Terramuggus, CT --- 910
+initial: 2
+final: 3
+
+880: Terrebonne, OR --- 787
+initial: 0
+final: 1
+
+881: Teutopolis, IL --- 394
+initial: 1
+final: 2
+
+882: Thatcher, AZ --- 201
+initial: 0
+final: 1
+
+883: The Village, OK --- 435
+initial: 0
+final: 1
+
+884: Thiells, NY --- 844
+initial: 0
+final: 1
+
+885: Thorntown, IN --- 361
+initial: 1
+final: 2
+
+886: Tierra Verde, FL --- 319
+initial: 0
+final: 1
+
+887: Tilton, NH --- 247
+initial: 0
+final: 1
+
+888: Tinton Falls, NJ --- 257
+initial: 0
+final: 1
+
+889: Tipton, PA --- 394
+initial: 2
+final: 3
+
+890: Tolland, CT --- 817
+initial: 0
+final: 1
+
+891: Tolleson, AZ --- 492
+initial: 1
+final: 2
+
+892: Tonkawa, OK --- 806
+initial: 1
+final: 2
+
+893: Tooele, UT --- 872
+initial: 1
+final: 2
+
+894: Torrington, WY --- 245
+initial: 1
+final: 2
+
+895: Toughkenamon, PA --- 567
+initial: 0
+final: 1
+
+896: Tower City, PA --- 942
+initial: 3
+final: 4
+
+897: Townsend, MT --- 150
+initial: 1
+final: 2
+
+898: Trenton, MI --- 222
+initial: 0
+final: 1
+
+899: Trentwood, WA --- 83
+initial: 0
+final: 1
+
+900: Troy, KS --- 183
+initial: 0
+final: 1
+
+901: Trumann, AR --- 715
+initial: 1
+final: 2
+
+902: Tubac, AZ --- 945
+initial: 1
+final: 2
+
+903: Tutwiler, MS --- 761
+initial: 0
+final: 1
+
+904: Twin Lakes, NM --- 568
+initial: 2
+final: 3
+
+905: Tyndall, SD --- 440
+initial: 1
+final: 2
+
+906: Tyrone, PA --- 119
+initial: 0
+final: 1
+
+907: Uhland, TX --- 317
+initial: 0
+final: 1
+
+908: Unadilla, GA --- 667
+initial: 1
+final: 2
+
+909: Unalaska, AK --- 32
+initial: 1
+final: 2
+
+910: Unionville, TN --- 357
+initial: 1
+final: 2
+
+911: University Park, TX --- 783
+initial: 1
+final: 2
+
+912: Upper Lake, CA --- 483
+initial: 1
+final: 2
+
+913: Urbana, MD --- 480
+initial: 1
+final: 2
+
+914: Valdese, NC --- 864
+initial: 0
+final: 1
+
+915: Valdez, AK --- 887
+initial: 1
+final: 2
+
+916: Van Lear, KY --- 204
+initial: 1
+final: 2
+
+917: Van, TX --- 188
+initial: 1
+final: 2
+
+918: Venetian Village, IL --- 206
+initial: 1
+final: 2
+
+919: Vernal, UT --- 395
+initial: 0
+final: 1
+
+920: Verona, MS --- 820
+initial: 2
+final: 3
+
+921: Victorville, CA --- 456
+initial: 0
+final: 1
+
+922: Villa Grove, IL --- 849
+initial: 0
+final: 1
+
+923: Vineyards, FL --- 755
+initial: 3
+final: 4
+
+924: Vinita, OK --- 383
+initial: 0
+final: 1
+
+925: Wadesboro, NC --- 224
+initial: 0
+final: 1
+
+926: Wading River, NY --- 376
+initial: 0
+final: 1
+
+927: Waipahu, HI --- 129
+initial: 2
+final: 3
+
+928: Waitsburg, WA --- 212
+initial: 0
+final: 1
+
+929: Wakefield-Peacedale, RI --- 541
+initial: 3
+final: 4
+
+930: Walbridge, OH --- 626
+initial: 0
+final: 1
+
+931: Waldwick, NJ --- 164
+initial: 1
+final: 2
+
+932: Walla Walla East, WA --- 177
+initial: 1
+final: 2
+
+933: Walnut Grove, CA --- 802
+initial: 3
+final: 4
+
+934: Wapakoneta, OH --- 428
+initial: 1
+final: 2
+
+935: Ward, AR --- 742
+initial: 0
+final: 1
+
+936: Wardsville, MO --- 514
+initial: 0
+final: 1
+
+937: Waseca, MN --- 534
+initial: 5
+final: 6
+
+938: Water Mill, NY --- 438
+initial: 1
+final: 2
+
+939: Waterbury, CT --- 609
+initial: 0
+final: 1
+
+940: Waterford, NY --- 933
+initial: 1
+final: 2
+
+941: Waterloo, WI --- 364
+initial: 0
+final: 1
+
+942: Watertown, SD --- 303
+initial: 1
+final: 2
+
+943: Wattsville, VA --- 63
+initial: 1
+final: 2
+
+944: Wauchula, FL --- 971
+initial: 1
+final: 2
+
+945: Weatherford, TX --- 84
+initial: 2
+final: 3
+
+946: Wernersville, PA --- 997
+initial: 1
+final: 2
+
+947: Wescosville, PA --- 918
+initial: 1
+final: 2
+
+948: Wesley Chapel, FL --- 729
+initial: 1
+final: 2
+
+949: West Bradenton, FL --- 144
+initial: 2
+final: 3
+
+950: West Branch, MI --- 76
+initial: 1
+final: 2
+
+951: West Columbia, SC --- 91
+initial: 1
+final: 2
+
+952: West Homestead, PA --- 565
+initial: 1
+final: 2
+
+953: West Hurley, NY --- 129
+initial: 3
+final: 4
+
+954: West Lake Hills, TX --- 342
+initial: 0
+final: 1
+
+955: West Melbourne, FL --- 22
+initial: 1
+final: 2
+
+956: West Norriton, PA --- 829
+initial: 2
+final: 3
+
+957: West Reading, PA --- 143
+initial: 2
+final: 3
+
+958: West Saint Paul, MN --- 103
+initial: 1
+final: 2
+
+959: West Side Highway, WA --- 716
+initial: 1
+final: 2
+
+960: West Springfield, MA --- 32
+initial: 2
+final: 3
+
+961: West Warwick, RI --- 912
+initial: 1
+final: 2
+
+962: West Whittier-Los Nietos, CA --- 169
+initial: 1
+final: 2
+
+963: Westchester, FL --- 158
+initial: 0
+final: 1
+
+964: Westerly, RI --- 879
+initial: 1
+final: 2
+
+965: Westfield, MA --- 168
+initial: 1
+final: 2
+
+966: Westlake, OH --- 641
+initial: 2
+final: 3
+
+967: Weston, MO --- 70
+initial: 0
+final: 1
+
+968: Westway, TX --- 215
+initial: 1
+final: 2
+
+969: Wheat Ridge, CO --- 462
+initial: 1
+final: 2
+
+970: Wheeler, TX --- 908
+initial: 2
+final: 3
+
+971: Whetstone, AZ --- 577
+initial: 0
+final: 1
+
+972: White Horse, NJ --- 460
+initial: 2
+final: 3
+
+973: White Pigeon, MI --- 161
+initial: 0
+final: 1
+
+974: White Rock, NM --- 752
+initial: 0
+final: 1
+
+975: Whitefish, MT --- 228
+initial: 0
+final: 1
+
+976: Whitewright, TX --- 821
+initial: 1
+final: 2
+
+977: Wilkinson Heights, SC --- 214
+initial: 2
+final: 3
+
+978: Williamsburg, FL --- 79
+initial: 0
+final: 1
+
+979: Williamsport, MD --- 28
+initial: 1
+final: 2
+
+980: Williamston, MI --- 366
+initial: 0
+final: 1
+
+981: Willis, TX --- 541
+initial: 4
+final: 5
+
+982: Wilton, NH --- 324
+initial: 0
+final: 1
+
+983: Windcrest, TX --- 116
+initial: 1
+final: 2
+
+984: Windsor, CO --- 336
+initial: 1
+final: 2
+
+985: Winslow, ME --- 738
+initial: 1
+final: 2
+
+986: Winterset, IA --- 781
+initial: 1
+final: 2
+
+987: Wiscasset, ME --- 866
+initial: 1
+final: 2
+
+988: Wisconsin Dells, WI --- 122
+initial: 1
+final: 2
+
+989: Wolfdale, PA --- 169
+initial: 2
+final: 3
+
+990: Woodburn, OR --- 446
+initial: 2
+final: 3
+
+991: Woodbury, MN --- 274
+initial: 1
+final: 2
+
+992: Woodlake, CA --- 813
+initial: 0
+final: 1
+
+993: Woodstock, NY --- 695
+initial: 0
+final: 1
+
+994: Wyandanch, NY --- 756
+initial: 0
+final: 1
+
+995: Wyldwood, TX --- 431
+initial: 0
+final: 1
+
+996: Yarmouth, ME --- 504
+initial: 0
+final: 1
+
+997: Yorkville, OH --- 129
+initial: 4
+final: 5
+
+998: Youngsville, PA --- 983
+initial: 3
+final: 4
+
+999: Zephyrhills North, FL --- 954
+initial: 1
+final: 2
+
+]0;dina@pc: ~/Desktop/341_proj_5dina@pc:~/Desktop/341_proj_5$ exit
+exit
+
+Script done on Mon 02 May 2016 11:20:27 PM EDT

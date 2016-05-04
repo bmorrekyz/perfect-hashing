@@ -19,9 +19,11 @@
 #include <string>
 #include <stdlib.h>
 #include <iostream>
-#include <stdlib.h>     /* srand, rand */
-#include <time.h>       /* time */
+#include <stdlib.h>     /* srand(), rand() */
 #include <math.h>
+#include <algorithm>    /* sort() */
+
+#include "City.h"
 
 using namespace std;
 
@@ -31,29 +33,41 @@ class PrimaryHashTable
 {
 public:
 
+	/*	Description:    
+		Pre-condition:  
+		Post-condition:	default constructor
+	*/
 	PrimaryHashTable(unsigned int tableSize, unsigned int prime1, unsigned int prime2);
-	
-	// void makeEmpty();
 
-	// Object find(Object &item);
-
+	/*	Description:    
+		Pre-condition:  
+		Post-condition:	
+	*/	
 	void insert(Object &x);
 
-	// void remove(Object &x);
-
+	/* to keep track of the vector cell occupuncy */
 	enum TYPE { OCCUPIED, EMPTY, DELETED };
 
-	/* temporaty functions */
+	/* ----- temporaty functions ----- */
 
+	/*	Description:    
+		Pre-condition:  
+		Post-condition:	
+	*/	
 	void dump();
+
+	/*	Description:    
+		Pre-condition:  
+		Post-condition:	
+	*/	
+	void scanData(vector<City> &x);
 
 private:
 
-	
 	struct HashItem
 	{
 		string m_item;
-		string m_coordinates;
+		string m_coordinates; // later convert string into latitude and longitude doubles
 		TYPE m_data;
 
 		HashItem( string key, string coordinates, TYPE choice )
@@ -61,20 +75,38 @@ private:
 			{	/* empty constructor body */ }
 	};
 
+	/* primary hash table - nested vector structure */
+	// vector< vector<HashItem> > array;
+
 	vector<HashItem> array;
 	unsigned int m_prime1;
 	unsigned int m_prime2;
 
+	/* used in the string to int conversion */
+	//  1 < c <= p
+	unsigned int m_c;  
+
+	/* used in universal hash function */
+	//  1 < a <= p
 	unsigned int m_a;
+
+	//  0 < b <= p
 	unsigned int m_b;
-	unsigned int m_c;
-
-
-	int zeroCities;//temp
 
 	/* --- INTERNAL METHODS --- */
-	unsigned int myHash(unsigned int hashedValue);
-	unsigned int convertKey(string key);	
+
+	/*	Description:    
+		Pre-condition:  
+		Post-condition:	
+	*/	
+	unsigned int convertKey(string key);
+
+	/*	Description:    
+		Pre-condition:  
+		Post-condition:	
+	*/	
+	unsigned int myHash(long int hashedValue);
+	
 };
 
 #include "PrimaryHashTable.cpp"

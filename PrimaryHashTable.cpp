@@ -23,61 +23,64 @@ PrimaryHashTable<Object>::PrimaryHashTable(unsigned int tableSize, unsigned int 
 {
 	/* instantiate a hash table with size=tableSize */
 	array.reserve(tableSize);
+
+	/* get the prime constants pass from main() */
 	m_prime1 = prime1;
 	m_prime2 = prime2;
 
+	/* --- generate random numbers a, b, c --- */
+	/* seed = 0 is a project requirement */
 	unsigned int seed = 0;
 	srand(seed);
-	unsigned int p = m_prime2 - 1; 
-	unsigned int p1 = m_prime1 - 1; 
 
-	unsigned int a = rand() % p + 1;
-	unsigned int b = rand() % p;
-	unsigned int c = rand() % p1 + 1;
-
-	// m_a = a;
-	// m_b = b;
-	// m_c = c;
-
-	m_a = 12588336;
-	m_b = 13007675;
-	m_c = 13887798;
+	long int c = rand() % m_prime1 + 1;      
+	long int a = rand() % m_prime2 + 1;      
+	long int b = rand() % m_prime2;         
+	 
+	m_a = a;
+	m_b = b;
+	m_c = c;
 
 	// temporarily instantiate each array cell as empty hash items
+	// temporarily because the array should really be a vector of vectors
 	HashItem temp("NULL", "NULL", EMPTY );
 	for (unsigned int i = 0; i < tableSize; i++)
 	{
 		array.push_back(temp);
 	}
 
-	zeroCities = 0;
+}
 
+/* PRIVATE: converts a string key to an int representation */
+template <typename Object>
+unsigned int PrimaryHashTable<Object>::convertKey(string key)
+{
+	long int hashKey = 0;
+
+	/* static_cast<int>(key[i]) returns the dec. of an ascii character */
+	for (unsigned int i = 0; i < key.length(); i++)
+	{	
+
+		hashKey = ((hashKey * m_c) + static_cast<int>(key[i])) % m_prime1;
+	}
+	clog << hashKey << endl;
+	return hashKey;
 }
 
 
+/* hashedValue is the key converted from string to int */
 template <typename Object>
-unsigned int PrimaryHashTable<Object>::myHash(unsigned int hashedValue)
+unsigned int PrimaryHashTable<Object>::myHash(long int hashedValue)
 {
-	unsigned int hashValue = 0;
+	long int hashValue = 0;
 
-	hashValue = ((m_a * hashedValue + m_b) % m_prime2) % array.size();
+	hashValue = (((m_a * hashedValue) + m_b) % m_prime2) % array.size();
 
 	return hashValue;
 
 }
 
-template <typename Object>
-unsigned int PrimaryHashTable<Object>::convertKey(string key)
-{
-	unsigned int strValue = 0;
 
-	/* static_cast<int>(key[i]) returns the int of an ascii character */
-	for (unsigned int i = 0; i < key.length(); i++)
-	{	
-		strValue = ((strValue * m_c) + static_cast<int>(key[i])) % m_prime1;
-	}
-	return strValue;
-}
 
 template <typename Object>
 void PrimaryHashTable<Object>::insert(Object &x)
@@ -86,11 +89,11 @@ void PrimaryHashTable<Object>::insert(Object &x)
 
 	position = myHash(convertKey(x.getName()));
 
-	HashItem insertItem(x.getName(),x.getCoordinates(), OCCUPIED );
+	HashItem insertedItem(x.getName(),x.getCoordinates(), OCCUPIED );
 
 	if (array[position].m_data == EMPTY)
 	{	
-		array[position] = insertItem;
+		array[position] = insertedItem;
 		
 	}
 }	
@@ -105,37 +108,70 @@ void PrimaryHashTable<Object>::dump()
 	cout << "c: " << m_c << endl;
 
 	cout << "\nnumber of cities: " << array.size() << endl;
-	// for (int i = 0; i < array.size(); i++ )
-	// {
-	// 	if(array[i].m_data == EMPTY)
-	// 	{
-	// 		zeroCities = zeroCities + 1;
-	// 	}
-	// }
 
-	for (int i=0; i<array.size(); i++)
-	{
-		if (array[i].m_data == EMPTY) 
-		{
-			zeroCities = zeroCities + 1;
-		}
-	}
 
-	clog << "zeroCities = " << zeroCities << endl;
-
-	for (int i=0; i < array.size(); i++)
-	{
-
-		// hashTable1.insert(array[i]);
-		if (array[i].m_item == "Wyldwood, TX") {
-			cout << "Wyldwood, TX has hash = " << myHash(convertKey(array[i].m_item)) << endl;
-		}
-
-		else if (array[i].m_item == "Greater Northdale, FL") {
-			cout << "Greater Northdale, FL has hash = " << myHash(convertKey(array[i].m_item)) << endl;
-		}
-
-	}
 }
+
+template <typename Object>
+void PrimaryHashTable<Object>::scanData(vector<City> &x) 
+{
+
+	vector< vector<HashItem> > data;
+	data.reserve(x.size());
+
+	unsigned int slotNum;
+
+	for (int i = 0; i < x.size(); i++)
+	{
+		slotNum = myHash(convertKey(x[i].getName()));
+		HashItem insertedItem(x[i].getName(),x[i].getCoordinates(), OCCUPIED );
+		data[slotNum].push_back(insertedItem);
+	}
+
+ 	unsigned int zero = 0;
+ 	unsigned int one = 0;
+ 	unsigned int two = 0;
+ 	unsigned int three = 0;
+ 	unsigned int four = 0;
+ 	unsigned int five = 0;
+ 	unsigned int six = 0;
+ 	unsigned int seven = 0;
+ 	unsigned int eight = 0;
+ 	unsigned int nine = 0;
+
+	for (unsigned int i = 0; i < x.size(); i++)
+	{
+
+		if (data[i].size() == 0) { zero = zero + 1; }
+		else if (data[i].size() == 1) { one = one + 1; }
+		else if (data[i].size() == 2) { two = two + 1; }
+		else if (data[i].size() == 3) { three = three + 1; }
+		else if (data[i].size() == 4) { four = four + 1; }
+		else if (data[i].size() == 5) { five = five + 1; }
+		else if (data[i].size() == 6) { six = six + 1; }
+		else if (data[i].size() == 7) { seven = seven + 1; }
+		else if (data[i].size() == 8) { eight = eight + 1; }
+		else if (data[i].size() == 9) { nine = nine + 1; }
+
+	}
+
+
+// 	// sort(slots, slots + x.size());
+
+
+	
+	cout << "# primary slots with " << 0 << " cities: " << zero << endl;
+	cout << "# primary slots with " << 1 << " cities: " << one << endl;
+	cout << "# primary slots with " << 2 << " cities: " << two << endl;
+	cout << "# primary slots with " << 3 << " cities: " << three << endl;
+	cout << "# primary slots with " << 4 << " cities: " << four << endl;
+	cout << "# primary slots with " << 5 << " cities: " << five << endl;
+	cout << "# primary slots with " << 6 << " cities: " << six << endl;
+	cout << "# primary slots with " << 7 << " cities: " << seven << endl;
+	cout << "# primary slots with " << 8 << " cities: " << eight << endl;
+	cout << "# primary slots with " << 9 << " cities: " << nine << endl;
+}
+
+
 #endif
 
