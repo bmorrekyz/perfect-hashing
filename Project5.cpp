@@ -74,16 +74,17 @@ int main(int argc, char const *argv[])
 
 
 	/* test code */
-	PrimaryHashTable<City> hashTable1(cities.size(), PRIME1, PRIME2);
-
-	for (int i=0; i < cities.size(); i++)
-	{
-		hashTable1.insert(cities[i]);
-	}
-
-	hashTable1.scanData(cities);
+	PrimaryHashTable hashTable1(cities.size(), cities, PRIME1, PRIME2);
 	hashTable1.dump();
-	return 0;
+
+	// for (int i=0; i < cities.size(); i++)
+	// {
+	// 	hashTable1.insert(cities[i]);
+	// }
+
+	// hashTable1.scanData(cities);
+
+	// return 0;
 }
 
 

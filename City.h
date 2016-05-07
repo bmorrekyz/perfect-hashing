@@ -12,7 +12,6 @@ class City
 public:
 	City(string name, string coordinates);
 	City(string name, double latitude, double longitude);
-	~City();
 
 	void setName(string name);
 	void setLatitude(double latitude);

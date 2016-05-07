@@ -14,10 +14,6 @@ City::City(string name, double latitude, double longitude)
 	m_longitude = longitude;
 }
 
-City::~City()
-{
-	/* empty destructor body */
-}
 
 void City::setName(string name)
 {

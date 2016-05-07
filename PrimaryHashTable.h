@@ -24,91 +24,77 @@
 #include <algorithm>    /* sort() */
 
 #include "City.h"
+#include "SecondaryHashTable.h"
+#include "HashItem.h"
 
 using namespace std;
-
-template <typename Object>
 
 class PrimaryHashTable
 {
 public:
 
-	/*	Description:    
-		Pre-condition:  
+	/*	Description:    PrimaryHashTable
+		Pre-condition:  valid hash table size, city data, and two primes > table size.
 		Post-condition:	default constructor
 	*/
-	PrimaryHashTable(unsigned int tableSize, unsigned int prime1, unsigned int prime2);
+	PrimaryHashTable(unsigned int tableSize, vector<City> cityData,
+					unsigned int prime1, unsigned int prime2);
 
-	/*	Description:    
+	/*	Description:    insert()
 		Pre-condition:  
 		Post-condition:	
 	*/	
-	void insert(Object &x);
-
-	/* to keep track of the vector cell occupuncy */
-	enum TYPE { OCCUPIED, EMPTY, DELETED };
+	void insert(HashItem &x);
 
 	/* ----- temporaty functions ----- */
-
-	/*	Description:    
-		Pre-condition:  
-		Post-condition:	
-	*/	
 	void dump();
 
-	/*	Description:    
-		Pre-condition:  
-		Post-condition:	
-	*/	
-	void scanData(vector<City> &x);
 
 private:
 
-	struct HashItem
-	{
-		string m_item;
-		string m_coordinates; // later convert string into latitude and longitude doubles
-		TYPE m_data;
+	int m_primTableSize;
 
-		HashItem( string key, string coordinates, TYPE choice )
-			: m_item(key), m_coordinates(coordinates), m_data(choice) 
-			{	/* empty constructor body */ }
-	};
+	/* m_array 	*/
+	vector<HashItem> m_array;
+
+	vector< vector<HashItem> > m_2dArrayScan;
 
 	/* primary hash table - nested vector structure */
-	// vector< vector<HashItem> > array;
+	vector<SecondaryHashTable> m_PrimaryTable;
 
-	vector<HashItem> array;
+
+
+	vector<City> m_cityData;
 	unsigned int m_prime1;
 	unsigned int m_prime2;
 
-	/* used in the string to int conversion */
-	//  1 < c <= p
-	unsigned int m_c;  
+	/* used in the string to int conversion 
+	   1 < c <= p */
+	long int m_c;  
 
-	/* used in universal hash function */
-	//  1 < a <= p
-	unsigned int m_a;
+	/* used in universal hash function 
+	   1 < a <= p and 0 < b <= p  */
+	long int m_a;
+	long int m_b;
 
-	//  0 < b <= p
-	unsigned int m_b;
+	unsigned int m_seed;
 
-	/* --- INTERNAL METHODS --- */
+	/* --- --- INTERNAL METHODS --- --- */
 
-	/*	Description:    
-		Pre-condition:  
-		Post-condition:	
+	/*	Description:    convertKey()
+		Pre-condition:  a valid string to be hashed
+		Post-condition:	returns the hash value of a string
 	*/	
-	unsigned int convertKey(string key);
+	long int convertKey(string key);
 
-	/*	Description:    
-		Pre-condition:  
-		Post-condition:	
+	/*	Description:    myHash()
+		Pre-condition:  a valid long int representation of a key
+		Post-condition:	returns the position to which a string key hashes
 	*/	
 	unsigned int myHash(long int hashedValue);
-	
+
+	void getMaxCollisionCities(int maxCollision);
 };
 
-#include "PrimaryHashTable.cpp"
 
 #endif
