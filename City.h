@@ -10,18 +10,19 @@ using namespace std;
 class City
 {
 public:
+	City();
 	City(string name, string coordinates);
-	City(string name, double latitude, double longitude);
 
 	void setName(string name);
 	void setLatitude(double latitude);
 	void setLongitude(double longitude);
-
+	void setOccupuncy(int result);
+	
 	string getName();
 	double getLatitude();
 	double getLongitude();
-
 	string getCoordinates();
+	int getOccupuncy();
 	
 	/* overloaded == and != operators */
 	bool operator==(City &rhs); 
@@ -33,6 +34,7 @@ private:
 	double m_latitude;
 	double m_longitude;
 	string m_coordinates;
+	int m_occupuncy;
 
 };
 

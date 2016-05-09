@@ -1,19 +1,18 @@
 #include "City.h"
 
+City::City()
+{
+	m_name = "NULL";
+	m_coordinates = "NULL";
+	m_occupuncy = 0;
+}
 
 City::City(string name, string coordinates)
 {
 	m_name = name;
 	m_coordinates = coordinates;
+	m_occupuncy = 0;
 }
-
-City::City(string name, double latitude, double longitude)
-{
-	m_name = name;
-	m_latitude = latitude;
-	m_longitude = longitude;
-}
-
 
 void City::setName(string name)
 {
@@ -54,6 +53,10 @@ void City::setLongitude(double longitude)
 	}
 }
 
+void City::setOccupuncy(int result) 
+{
+	m_occupuncy = result;
+}
 
 string City::getName()
 {
@@ -74,6 +77,11 @@ double City::getLongitude()
 string City::getCoordinates()
 {
 	return m_coordinates;
+}
+
+int City::getOccupuncy()
+{
+	return m_occupuncy;
 }
 
 bool City::operator==(City &rhs)

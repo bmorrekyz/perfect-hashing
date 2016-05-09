@@ -5,10 +5,8 @@
 #include <iomanip>
 #include <fstream>
 
-#include <stdlib.h>     /* srand, rand */
-
 #include "City.h"
-#include "PrimaryHashTable.h"
+#include "PrimaryTable.h"
 
 using namespace std;
 
@@ -45,7 +43,6 @@ int main(int argc, char const *argv[])
 	if (inFile.is_open())
 	{
 		string line;
-
 		int lineCount = 1;
 		string cityName, coordinates;
 
@@ -74,17 +71,10 @@ int main(int argc, char const *argv[])
 
 
 	/* test code */
-	PrimaryHashTable hashTable1(cities.size(), cities, PRIME1, PRIME2);
-	hashTable1.dump();
+	PrimaryTable hashTable1(cities, PRIME1, PRIME2);
 
-	// for (int i=0; i < cities.size(); i++)
-	// {
-	// 	hashTable1.insert(cities[i]);
-	// }
-
-	// hashTable1.scanData(cities);
-
-	// return 0;
+	hashTable1.dumpPrimaryStats();
+	hashTable1.dumpSecondaryStats();
+	 	
+	return 0;
 }
-
-
